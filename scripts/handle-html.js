@@ -161,7 +161,8 @@ function setStats() {
     calculateCategoryExpenses("restaurants").toFixed(2);
   transportValueElement.textContent =
     calculateCategoryExpenses("transport").toFixed(2);
-  homeValueElement.textContent = calculateCategoryExpenses("home").toFixed(2);
+  homeValueElement.textContent = 
+    calculateCategoryExpenses("home").toFixed(2);
   subscriptionsValueElement.textContent =
     calculateCategoryExpenses("subscriptions").toFixed(2);
 
